@@ -106,9 +106,9 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
 
 ## Native modules & Windows
 ### Problem / Context
-Some npm modules do not work on Windows because they contain non-JavaScript code. You will see errors related to `node-gyp` when you try to install them.
+Some npm packages do not install on Windows because they contain non-JavaScript code. You will see errors related to `node-gyp` when you try to install them.
 ### Recommended solution
-Find another npm module that does the job in pure JavaScript. For example, [bcryptjs](https://www.npmjs.com/package/bcryptjs) is a drop-in replacement for the popular [bcrypt](https://www.npmjs.com/package/bcrypt) module.
+Find another npm package that does the job in pure JavaScript. For example, [bcryptjs](https://www.npmjs.com/package/bcryptjs) is a drop-in replacement for the popular [bcrypt](https://www.npmjs.com/package/bcrypt) module.
 
 How to find alternatives:
 * if the repo is hosted on GitHub or a similar platform, search the Issues for anyone mentioning Windows or node-gyp. It is likely someone in the thread has linked to a pure JavaScript replacement
@@ -121,7 +121,7 @@ Make sure that your chosen alternative is a suitable replacement. Look for:
 
 This is the simplest solution as it eliminates the problem rather than trying to accommodate it. The speed advantage from the native module will not be missed until later in your development cycle.
 ### Alternative solution
-Do this **if and only if** you cannot find a suitable alternative npm module.
+Do this **if and only if** you cannot find a suitable alternative npm package.
 
 Follow the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation).
 
