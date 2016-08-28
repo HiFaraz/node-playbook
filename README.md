@@ -23,7 +23,10 @@ Be **optimally lazy**. There are only two principles:
 1. The fastest way to finish a task is to do nothing
   * Ask yourself if you can live without it
   * Less code means less bugs
-  * See also: [You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) (YAGNI)
+  * See also:
+    * [You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) (YAGNI)
+    * [Customer development](http://www.startuplessonslearned.com/2008/11/what-is-customer-development.html)
+    * [Minimum viable product](http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html) (MVP)
 1. The second fastest way to finish a task is to get someone else to do it
   * For example, this playbook is an example of using someone else's work to get ahead
   * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
