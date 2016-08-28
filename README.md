@@ -7,7 +7,7 @@ This is a opinionated "get started" guide to developing with Node.js.
 ### Problem / Context
 You waste time by:
 
-* researching basic aspects of Node.js development, and
+* discovering/researching basic aspects of Node.js development, and
 * choosing from amongst several tool options that do the same job
 
 ### Recommended solution
@@ -20,8 +20,8 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 
 ### What this is not
 
-* This does not teach you how to program in JavaScript
-* This is not the only way to develop with Node.js. I use other choices when they suit me, and so should you. However this guide recommends only one solution to each problem
+* This does not teach you JavaScript
+* This is not the only way to develop with Node.js. Use this playbook to get started, then use other choices when applicable
 * This does not replace the need to read documentation
 * Not all advice is specific to Node.js
 
