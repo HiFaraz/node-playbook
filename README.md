@@ -27,6 +27,12 @@ Here is a set of tools that will get you going:
 
 Download and install from each link above.
 
+## Coding style
+### Problem / Context
+Fretting over coding style wastes time, and a sloppy coding style reflects poorly on you. You need a coding style that looks decent and is easy to follow.
+### Recommended solution
+Follow [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
+
 ## Native modules & Windows
 ### Problem / Context
 Some npm modules do not work on Windows because they contain non-JavaScript code. You will see errors related to `node-gyp` when you try to install them.
