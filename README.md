@@ -1,4 +1,4 @@
-![node-playbook banner](http://i.imgur.com/WrPnUxR.png)
+![node-playbook banner](http://i.imgur.com/C1yh7Wj.png)
 
 # Node.js Playbook
 
