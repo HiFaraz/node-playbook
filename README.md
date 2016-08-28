@@ -206,6 +206,7 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 ## Upcoming sections
 
 * General problems
+  * understanding event driven programming
   * Clustering (solution: throng)
   * Password hashing (solution: bcrypt)
   * Saving exact and secure dependency versions (solution: --save-exact, --secure, and .npmrc)
@@ -217,6 +218,7 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
   * other analytics: keen.io, google analytics and kissmetrics, and key metrics
   * npm publish scripts that update version number for you
   * promises and callbacks
+  * error handling
 * Developing for the web
   * Working with sockets (solution: socket.io)
   * Creating a REST API server (solution: Swagger)
@@ -228,6 +230,7 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
   * don't run your server on port 80 or 453
   * security
   * ssl
+  * message queues and async function execution
 * Developing mobile applications
   * immediate user feedback for server requests
 
