@@ -1,12 +1,24 @@
 ![node-playbook banner](http://i.imgur.com/LUyKH8K.png)
 
-# node-playbook
+# Node.js Playbook
 
-This is a opinionated guide to developing with Node.js. It helps you get started in a world of infinite options, rather than spending days researching basic choices.
+This is a opinionated guide to developing with Node.js.
 
-Some of the advice is not specific to Node.js.
+### Problem / Context
+You will waste time by:
 
-This is not the only way to develop with Node.js. This playbook does not teach you how to program in JavaScript. It does not replace the need to read documentation.
+* researching basic aspects of Node.js development, and
+* choosing from amongst infinite tool options that do the same job
+
+### Recommended solution
+Follow this playbook. Its goal is to get you started in a world of infinite options, rather than spending days researching basic choices (like I did).
+
+### What this is not
+
+* Not all advice is specific to Node.js
+* This is not the only way to develop with Node.js
+* This does not teach you how to program in JavaScript
+* This does not replace the need to read documentation
 
 ## Contents
 
@@ -16,6 +28,7 @@ This is not the only way to develop with Node.js. This playbook does not teach y
 1. [Coding style](#coding-style)
 1. [Version numbering](#version-numbering)
 1. [Native modules & Windows](#native-modules--windows)
+1. [Upcoming sections](#upcoming-sections)
 
 ## The Golden Rule: avoid coding wherever possible
 Be **optimally lazy**. There are only two principles:
@@ -104,6 +117,22 @@ Make sure that your chosen alternative is a suitable replacement. Look for:
 This is the simplest solution as it eliminates the problem rather than trying to accommodate it. The speed advantage from the native module will not be missed until later in your development cycle.
 ### Other solutions
 See the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation). I never got this to work despite many tries.
+
+## Upcoming sections
+
+* Clustering (solution: throng)
+* Password hashing (solution: bcryptjs)
+* Create an HTTP server (solution: express)
+* Working with sockets (solution: socket.io)
+* Working with a database (solution: PostgesSQL and Sequelize)
+* Creating a REST API server (solution: Swagger)
+* Deploying quickly (solution: Heroku)
+* Workflow
+* Saving exact dependency versions (solution: save-exact and .npmrc)
+* Application architecture (solution: single page apps with a back-end API server)
+
+## Contributing
+Contributions are welcome through pull requests and Github Issues.
 
 ## License
 
