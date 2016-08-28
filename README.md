@@ -1,7 +1,31 @@
-# node-playbook
-Notes on developing with Node.js
+![node-playbook banner](http://i.imgur.com/LUyKH8K.png)
 
-This document is a guide to solving common problems when developing in Node.js. It does not teach you how to program in JavaScript.
+# node-playbook
+
+This is a opinionated guide to developing with Node.js. It helps you get started in a world of infinite options, rather than spending days researching basic choices.
+
+It is not the only way to develop with Node.js. It does not teach you how to program in JavaScript.
+
+## Development environment
+### Problem / Context
+Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clients) wastes time. No tool is 10 times better than another. You need a set of tools that get you started and let you grow according to you needs.
+### Recommended solution
+Here is a set of tools that will get you going:
+* Editor: [Atom](https://atom.io/)
+ * Atom packages/plug-ins:
+   * atom-beautify
+   * atom-html-preview
+   * fold-lines
+   * terminal-plus
+   * markdown-preview (hit Ctrl+Shift+M)
+* Version control: [git](https://git-scm.com/)
+* Repo hosting: [GitHub](https://github.com/)
+ * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
+* Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: clone repos from GitHub *and* BitBucket)
+* API testing: [Postman](https://www.getpostman.com/apps)
+* Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
+
+Download and install from each link above.
 
 ## Native modules & Windows
 ### Problem / Context
