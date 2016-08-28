@@ -10,15 +10,16 @@ It is not the only way to develop with Node.js. It does not teach you how to pro
 
 ## The Golden Rule: avoid coding wherever possible
 You should aim to be **optimally lazy**. There are only two principles:
+
 1. The fastest way to finish a task is to do nothing
- * Ask yourself if you can live without it
- * Less code means less bugs
- * See also: [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+  * Ask yourself if you can live without it
+  * Less code means less bugs
+  * See also: [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 1. The second fastest way to finish a task is to get someone else to do it
-* For example, this playbook is an example of using someone else's work to get ahead
- * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
- * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
-  * Make sure your dependencies are of high quality
+  * For example, this playbook is an example of using someone else's work to get ahead
+  * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
+  * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
+    * Make sure your dependencies are of high quality
 
 ## Development environment
 ### Problem / Context
@@ -26,15 +27,15 @@ Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clien
 ### Recommended solution
 Here is a set of tools that will get you going:
 * Editor: [Atom](https://atom.io/)
- * Atom packages/plug-ins:
-   * atom-beautify
-   * atom-html-preview
-   * fold-lines
-   * terminal-plus
-   * markdown-preview (hit Ctrl+Shift+M)
+  * Atom packages/plug-ins:
+    * atom-beautify
+    * atom-html-preview
+    * fold-lines
+    * terminal-plus
+    * markdown-preview (hit Ctrl+Shift+M)
 * Version control: [git](https://git-scm.com/)
 * Repo hosting: [GitHub](https://github.com/)
- * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
+  * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
 * Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: clone repos from GitHub *and* BitBucket)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
