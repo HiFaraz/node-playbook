@@ -15,7 +15,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 
 ### Who this is for
 
-* Beginners who are just starting out with Node.js
+* Beginners who just want to get a project started without too much hassle
 * Veterans who want a quick reference guide to unfamiliar parts of the Node.js ecosystem
 
 ### What this is not
