@@ -199,6 +199,9 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 ## Contributing
 Contributions are welcome through pull requests and Github Issues.
 
+Spefic help I'm looking for:
+* someone to write a section called **Developing for mobile platforms**
+
 ## License
 
 MIT License
