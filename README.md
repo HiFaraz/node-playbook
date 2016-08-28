@@ -81,7 +81,7 @@ Download and install these tools:
 * Version control: [git](https://git-scm.com/)
 * Repository (repo) hosting: [GitHub](https://github.com/)
   * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
-* Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: clone repos from GitHub *and* BitBucket)
+* Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: you can upload/push much faster and clone repos from GitHub *and* BitBucket)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
 
