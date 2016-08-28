@@ -196,14 +196,13 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 ## Upcoming sections
 
 * Clustering (solution: throng)
-* Password hashing (solution: bcryptjs)
+* Password hashing (solution: bcrypt)
 * Create an HTTP server (solution: express)
 * Working with sockets (solution: socket.io)
 * Working with a database (solution: PostgesSQL and Sequelize)
 * Creating a REST API server (solution: Swagger)
 * Deploying whole apps (solution: Heroku)
-* Deploying serverless (solution: serverless and AWS Lambda)
-* Workflow
+* Deploying serverless (solution: serverless and AWS Lambda
 * Saving exact dependency versions (solution: save-exact and .npmrc)
 * Application architecture (solution: single page apps with a back-end API server)
 * Good documentation / READMEs
@@ -213,6 +212,13 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 * Rate limiting and prevent brute force logins
 * Authentication (solution: jsonwebtoken)
 * testing
+* don't run your server on port 80 or 453
+* security
+* ssl
+* user analytics and app monitoring
+* other analytics: keen.io, google analytics and kissmetrics, and key metrics
+* npm publish scripts that update version number for you
+* promises and callbacks
 
 ## Contributing
 Contributions are welcome through pull requests and Github Issues.
