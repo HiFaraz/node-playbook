@@ -60,7 +60,6 @@ Be **optimally lazy**. There are only two principles:
     * Make sure your dependencies are of high quality
 
 # General problems
-
 This section covers general problems regardless of your development goals.
 
 ## Node.js version
@@ -199,7 +198,7 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 ## Contributing
 Contributions are welcome through pull requests and Github Issues.
 
-Spefic help I'm looking for:
+Specific help I'm looking for:
 * someone to write a section called **Developing for mobile platforms**
 
 ## License
