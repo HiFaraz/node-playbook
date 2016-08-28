@@ -30,6 +30,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 1. [The Golden Rule: avoid coding wherever possible](#the-golden-rule-avoid-coding-wherever-possible)
 1. [Node.js version](#nodejs-version)
 1. [Development environment](#development-environment)
+1. [File and folder structure](#file-and-folder-structure)
 1. [Coding style](#coding-style)
 1. [Version numbering](#version-numbering)
 1. [Native modules & Windows](#native-modules--windows)
@@ -52,6 +53,7 @@ Be **optimally lazy**. There are only two principles:
   * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
   * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
     * Make sure your dependencies are of high quality
+
 
 ## Node.js version
 ### Problem / Context
@@ -77,6 +79,16 @@ Download and install these tools:
 * Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: clone repos from GitHub *and* BitBucket)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
+
+## File and folder structure
+### Problem / Context
+Thinking about how to set up your project file and folder structure wastes time.
+### Recommended solution
+1. Create three subfolders:
+  1. `source`: place all your source code here
+  1. `test`: place all testing code here
+  1. `build` (optional): use this as a destination folder if/when you implement a build system (something that converts your source code to another form)
+1. Create a file in the `source` sub-folder called `index.js`
 
 ## Coding style
 ### Problem / Context
