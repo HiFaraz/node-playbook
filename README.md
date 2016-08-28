@@ -52,28 +52,26 @@ Be **optimally lazy**. There are only two principles:
 ### Problem / Context
 Many versions are listed on the Node.js website. Choosing a Node.js version wastes time.
 ### Recommended solution
-Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against brand new features popping up in Node.js while you build your app.
+Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app.
 
 ## Development environment
 ### Problem / Context
 Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clients) wastes time. No tool is 10 times better than another. You need a set of tools that get you started and let you grow according to you needs.
 ### Recommended solution
-Here is a set of tools that will get you going:
+Download and install these tools:
 * Editor: [Atom](https://atom.io/)
   * Atom packages/plug-ins:
-    * atom-beautify
-    * atom-html-preview
+    * atom-beautify (go into `Settings > Packages` and enable `Beautify On Save` for CSS, HTML, JavaScript, JSON, and Markdown)
+    * atom-html-preview (press `Ctrl+P` in the editor to open the preview)
     * fold-lines
     * terminal-plus
-    * markdown-preview (hit Ctrl+Shift+M)
+    * markdown-preview (press `Ctrl+Shift+M` in the editor to open the preview)
 * Version control: [git](https://git-scm.com/)
-* Repo hosting: [GitHub](https://github.com/)
+* Repository (repo) hosting: [GitHub](https://github.com/)
   * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
 * Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: clone repos from GitHub *and* BitBucket)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
-
-Download and install from each link above.
 
 ## Coding style
 ### Problem / Context
