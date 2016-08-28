@@ -11,7 +11,7 @@ You waste time by:
 * choosing from amongst several tool options that do the same job
 
 ### Recommended solution
-Follow this playbook. Its goal is to get you started in a world of near-infinite options, rather than spending days researching basic choices (like I did).
+Follow this playbook. It recommends basic choices that let you focus on writing code instead of setting things up.
 
 ### Who this is for
 
