@@ -48,6 +48,26 @@ Fretting over coding style wastes time, and a sloppy coding style reflects poorl
 ### Recommended solution
 Follow [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
 
+## Versioning your packages
+### Problem / Context
+Deciding on a version number scheme wastes time. Using a non-standard scheme confuses anyone using your package.
+### Recommended solution
+Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most important bits to get started:
+
+> Given a version number MAJOR.MINOR.PATCH, increment the:
+>
+> 1. MAJOR version when you make incompatible API changes,
+> 2. MINOR version when you add functionality in a backwards-compatible manner, and
+> 3. PATCH version when you make backwards-compatible bug fixes.
+>
+> How should I deal with revisions in the 0.y.z initial development phase?
+>
+> The simplest thing to do is start your initial development release at 0.1.0 and then increment the minor version for each subsequent release.
+>
+> How do I know when to release 1.0.0?
+>
+> If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.
+
 ## Native modules & Windows
 ### Problem / Context
 Some npm modules do not work on Windows because they contain non-JavaScript code. You will see errors related to `node-gyp` when you try to install them.
