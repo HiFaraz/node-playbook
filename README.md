@@ -21,6 +21,12 @@ You should aim to be **optimally lazy**. There are only two principles:
   * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
     * Make sure your dependencies are of high quality
 
+## Node.js version
+### Problem / Context
+Many versions are listed on the Node.js website. Choosing a Node.js version wastes time.
+### Recommended solution
+Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against brand new features popping up in Node.js while you build your app.
+
 ## Development environment
 ### Problem / Context
 Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clients) wastes time. No tool is 10 times better than another. You need a set of tools that get you started and let you grow according to you needs.
