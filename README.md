@@ -37,6 +37,8 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
   1. [Native modules & Windows](#native-modules--windows)
 1. [Developing a package](#developing-a-package)
   1. [Version numbering](#version-numbering)
+1. [Developing for the desktop](#developing-for-the-desktop)
+  1. [Cross platform framework](#cross-platform-framework)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
 1. [License](#license)
@@ -163,6 +165,15 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
 > How do I know when to release 1.0.0?
 >
 > If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.
+
+# Developing for the desktop
+This section covers problems commonly encountered with developing and distributing desktop applications.
+
+## Cross platform framework
+### Problem / Context
+Deciding which cross platform framework to use is a waste of time.
+### Recommended solution
+Use [Electron](http://electron.atom.io/). It is now considered stable as version 1 was released on May 11, 2016. It is backed by the makers of GitHub and Atom, and has a strong community.
 
 ## Upcoming sections
 
