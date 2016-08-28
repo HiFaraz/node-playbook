@@ -8,6 +8,15 @@ Some of the advice is not specific to Node.js.
 
 It is not the only way to develop with Node.js. It does not teach you how to program in JavaScript.
 
+## Contents
+
+1. [The Golden Rule: avoid coding wherever possible](#the-golden-rule-avoid-coding-wherever-possible)
+1. [Node.js version](#nodejs-version)
+1. [Development environment](#development-environment)
+1. [Coding style](#coding-style)
+1. [Version numbering](#version-numbering)
+1. [Native modules & Windows](#native-modules--windows)
+
 ## The Golden Rule: avoid coding wherever possible
 You should aim to be **optimally lazy**. There are only two principles:
 
@@ -54,7 +63,7 @@ Fretting over coding style wastes time, and a sloppy coding style reflects poorl
 ### Recommended solution
 Follow [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
 
-## Versioning your packages
+## Version numbering
 ### Problem / Context
 Deciding on a version number scheme wastes time. Using a non-standard scheme confuses anyone using your package.
 ### Recommended solution
