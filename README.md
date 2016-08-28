@@ -16,7 +16,7 @@ Follow this playbook. Its goal is to get you started in a world of infinite opti
 ### What this is not
 
 * Not all advice is specific to Node.js
-* This is not the only way to develop with Node.js
+* This is not the only way to develop with Node.js. I use other choices when they suit me, and so should you. However this guide will generally not present any alternatives
 * This does not teach you how to program in JavaScript
 * This does not replace the need to read documentation
 
@@ -117,8 +117,12 @@ Make sure that your chosen alternative is a suitable replacement. Look for:
 * number of downloads
 
 This is the simplest solution as it eliminates the problem rather than trying to accommodate it. The speed advantage from the native module will not be missed until later in your development cycle.
-### Other solutions
-See the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation). I never got this to work despite many tries.
+### Alternative solution
+Do this **if and only if** you cannot find a suitable alternative npm module.
+
+Follow the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation).
+
+I never got this to work despite many tries.
 
 ## Upcoming sections
 
@@ -128,7 +132,8 @@ See the Windows installation instructions at the [node-gyp README](https://githu
 * Working with sockets (solution: socket.io)
 * Working with a database (solution: PostgesSQL and Sequelize)
 * Creating a REST API server (solution: Swagger)
-* Deploying quickly (solution: Heroku)
+* Deploying whole apps (solution: Heroku)
+* Deploying serverless (solution: serverless and AWS Lambda)
 * Workflow
 * Saving exact dependency versions (solution: save-exact and .npmrc)
 * Application architecture (solution: single page apps with a back-end API server)
