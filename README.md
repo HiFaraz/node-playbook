@@ -2,23 +2,28 @@
 
 # Node.js Playbook
 
-This is a opinionated guide to developing with Node.js.
+This is a opinionated "get started" guide to developing with Node.js.
 
 ### Problem / Context
-You will waste time by:
+You waste time by:
 
 * researching basic aspects of Node.js development, and
-* choosing from amongst infinite tool options that do the same job
+* choosing from amongst several tool options that do the same job
 
 ### Recommended solution
-Follow this playbook. Its goal is to get you started in a world of infinite options, rather than spending days researching basic choices (like I did).
+Follow this playbook. Its goal is to get you started in a world of near-infinite options, rather than spending days researching basic choices (like I did).
+
+### Who this is for
+
+* Beginners who are just starting out with Node.js
+* Veterans who want a quick reference guide to unfamiliar parts of the Node.js ecosystem
 
 ### What this is not
 
-* Not all advice is specific to Node.js
-* This is not the only way to develop with Node.js. I use other choices when they suit me, and so should you. However this guide will generally not present any alternatives
 * This does not teach you how to program in JavaScript
+* This is not the only way to develop with Node.js. I use other choices when they suit me, and so should you. However this guide recommends only one solution to each problem
 * This does not replace the need to read documentation
+* Not all advice is specific to Node.js
 
 ## Contents
 
@@ -136,6 +141,12 @@ I never got this to work despite many tries.
 * Saving exact dependency versions (solution: save-exact and .npmrc)
 * Application architecture (solution: single page apps with a back-end API server)
 * Good documentation / READMEs
+* Debug logging (solution: debug)
+* Event emitter (solution: eventemitter3)
+* Handling server overload (solution: toobusy)
+* Rate limiting and prevent brute force logins
+* Authentication (solution: jsonwebtoken)
+
 
 ## Contributing
 Contributions are welcome through pull requests and Github Issues.
