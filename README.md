@@ -130,6 +130,7 @@ See the Windows installation instructions at the [node-gyp README](https://githu
 * Workflow
 * Saving exact dependency versions (solution: save-exact and .npmrc)
 * Application architecture (solution: single page apps with a back-end API server)
+* Good documentation / READMEs
 
 ## Contributing
 Contributions are welcome through pull requests and Github Issues.
