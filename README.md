@@ -18,6 +18,6 @@ Make sure that your chosen alternative is a suitable replacement. Look for:
 * good documentation
 * number of downloads
 
-This is the simplest solution as it eliminates the problem rather than trying to accommodate it.
+This is the simplest solution as it eliminates the problem rather than trying to accommodate it. The speed advantage from the native module will not be missed until later in your development cycle.
 ### Other solutions
 See the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation). I never got this to work despite many tries.
