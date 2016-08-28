@@ -59,7 +59,7 @@ Be **optimally lazy**. There are only two principles:
 1. The second fastest way to finish a task is to get someone else to do it
   * For example, this playbook is an example of using someone else's work to get ahead
   * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
-  * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
+  * Use pre-built pieces of code, such as [npm packages](https://www.npmjs.com/)
     * Make sure your dependencies are of high quality
 
 # General problems
