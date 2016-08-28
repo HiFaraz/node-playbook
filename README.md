@@ -39,7 +39,8 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
   1. [Technology stack](#technology-stack)
 1. [Developing a package](#developing-a-package)
   1. [Version numbering](#version-numbering)
-1. [Developing for the desktop](#developing-for-the-desktop)
+1. [Developing mobile applications](#developing-mobile-applications)
+1. [Developing desktop applications](#developing-desktop-applications)
   1. [Cross platform framework](#cross-platform-framework)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
@@ -184,8 +185,17 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
 >
 > If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.
 
-# Developing for the desktop
+# Developing mobile applications
+This section covers problems commonly encountered with:
+* developing and distributing native mobile applications in JavaScript
+* serving mobile users for web applications
+
+I am seeking contributors for this section.
+
+# Developing desktop applications
 This section covers problems commonly encountered with developing and distributing desktop applications.
+
+I am seeking contributors for this section.
 
 ## Cross platform framework
 ### Problem / Context
