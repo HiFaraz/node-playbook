@@ -18,12 +18,12 @@ This is not the only way to develop with Node.js. This playbook does not teach y
 1. [Native modules & Windows](#native-modules--windows)
 
 ## The Golden Rule: avoid coding wherever possible
-You should aim to be **optimally lazy**. There are only two principles:
+Be **optimally lazy**. There are only two principles:
 
 1. The fastest way to finish a task is to do nothing
   * Ask yourself if you can live without it
   * Less code means less bugs
-  * See also: [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+  * See also: [You aren't gonna need it](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) (YAGNI)
 1. The second fastest way to finish a task is to get someone else to do it
   * For example, this playbook is an example of using someone else's work to get ahead
   * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
