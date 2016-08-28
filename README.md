@@ -29,6 +29,8 @@ Follow this playbook. Its goal is to get you started in a world of infinite opti
 1. [Version numbering](#version-numbering)
 1. [Native modules & Windows](#native-modules--windows)
 1. [Upcoming sections](#upcoming-sections)
+1. [Contributing](#contributing)
+1. [License](#license)
 
 ## The Golden Rule: avoid coding wherever possible
 Be **optimally lazy**. There are only two principles:
