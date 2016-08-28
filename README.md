@@ -36,6 +36,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
   1. [Coding style](#coding-style)
   1. [Native modules and Windows](#native-modules-and-windows)
 1. [Developing for the web](#developing-for-the-web)
+  1. [Technology stack](#technology-stack)
 1. [Developing a package](#developing-a-package)
   1. [Version numbering](#version-numbering)
 1. [Developing for the desktop](#developing-for-the-desktop)
@@ -144,6 +145,21 @@ I never got this to work despite many tries.
 
 # Developing for the web
 This section covers problems commonly encountered with developing, deploying, and distributing web applications.
+
+## Technology stack
+### Problem / Context
+Choosing a technology stack (e.g. server framework, database, front-end framework, hosting platform) wastes time. Every stack is different and affects your project, however this is mostly a matter of style. Every stack will do the job.
+### Recommended solution
+* Back-end:
+  * Hosting: [Heroku](https://www.heroku.com/)
+  * Server framework: [express](https://www.npmjs.com/package/express)
+  * Database: PostgresSQL (host it on Heroku)
+  * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
+* Front-end
+  * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
+  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)] (looking for free CDN suggestions that support custom domains)
+  * JavaScript: no recommendation yet
+  * Styling: [Bootstrap](http://getbootstrap.com/)
 
 # Developing a package
 This section covers problems commonly encountered with developing and publishing reusable packages.
