@@ -35,6 +35,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
   1. [File and folder structure](#file-and-folder-structure)
   1. [Coding style](#coding-style)
   1. [Native modules and Windows](#native-modules-and-windows)
+1. [Developing for the web](#developing-for-the-web)
 1. [Developing a package](#developing-a-package)
   1. [Version numbering](#version-numbering)
 1. [Developing for the desktop](#developing-for-the-desktop)
@@ -141,8 +142,10 @@ Follow the Windows installation instructions at the [node-gyp README](https://gi
 
 I never got this to work despite many tries.
 
-# Developing a package
+# Developing for the web
+This section covers problems commonly encountered with developing, deploying, and distributing web applications.
 
+# Developing a package
 This section covers problems commonly encountered with developing and publishing reusable packages.
 
 ## Version numbering
