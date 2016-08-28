@@ -34,7 +34,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
   1. [Workflow](#workflow)
   1. [File and folder structure](#file-and-folder-structure)
   1. [Coding style](#coding-style)
-  1. [Native modules & Windows](#native-modules--windows)
+  1. [Native modules and Windows](#native-modules-and-windows)
 1. [Developing a package](#developing-a-package)
   1. [Version numbering](#version-numbering)
 1. [Developing for the desktop](#developing-for-the-desktop)
@@ -118,7 +118,7 @@ Fretting over coding style wastes time, and a sloppy coding style reflects poorl
 ### Recommended solution
 Follow [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
 
-## Native modules & Windows
+## Native modules and Windows
 ### Problem / Context
 Some npm packages do not install on Windows because they contain non-JavaScript code. You will see errors related to `node-gyp` when you try to install them.
 ### Recommended solution
