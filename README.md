@@ -1,4 +1,4 @@
-![node-playbook banner](http://i.imgur.com/LUyKH8K.png)
+![node-playbook banner](http://i.imgur.com/CAYdkUW.png)
 
 # Node.js Playbook
 
@@ -146,7 +146,7 @@ I never got this to work despite many tries.
 * Handling server overload (solution: toobusy)
 * Rate limiting and prevent brute force logins
 * Authentication (solution: jsonwebtoken)
-
+* testing
 
 ## Contributing
 Contributions are welcome through pull requests and Github Issues.
