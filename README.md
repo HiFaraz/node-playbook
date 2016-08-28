@@ -6,7 +6,7 @@ This is a opinionated guide to developing with Node.js. It helps you get started
 
 Some of the advice is not specific to Node.js.
 
-It is not the only way to develop with Node.js. It does not teach you how to program in JavaScript.
+This is not the only way to develop with Node.js. This playbook does not teach you how to program in JavaScript. It does not replace the need to read documentation.
 
 ## Contents
 
