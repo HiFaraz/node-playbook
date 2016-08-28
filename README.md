@@ -235,10 +235,10 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
   * immediate user feedback for server requests
 
 ## Contributing
-Contributions are welcome through pull requests and Github Issues.
+Contributions are welcome through GitHub Issues! Please contribute by:
 
-Specific help I'm looking for:
-* someone to write a section called **Developing for mobile platforms**
+* asking for recommended solutions to your favorite problem
+* offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the criteria for recommended solutions)
 
 ## License
 
