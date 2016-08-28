@@ -28,17 +28,18 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 ## Contents
 
 1. [The Golden Rule: avoid coding wherever possible](#the-golden-rule-avoid-coding-wherever-possible)
-1. [Node.js version](#nodejs-version)
-1. [Development environment](#development-environment)
-1. [File and folder structure](#file-and-folder-structure)
-1. [Coding style](#coding-style)
-1. [Version numbering](#version-numbering)
-1. [Native modules & Windows](#native-modules--windows)
+1. [General problems](#general-problems)
+  1. [Node.js version](#nodejs-version)
+  1. [Development environment](#development-environment)
+  1. [File and folder structure](#file-and-folder-structure)
+  1. [Coding style](#coding-style)
+  1. [Version numbering](#version-numbering)
+  1. [Native modules & Windows](#native-modules--windows)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
 1. [License](#license)
 
-## The Golden Rule: avoid coding wherever possible
+# The Golden Rule: avoid coding wherever possible
 Be **optimally lazy**. There are only two principles:
 
 1. The fastest way to finish a task is to do nothing
@@ -54,6 +55,9 @@ Be **optimally lazy**. There are only two principles:
   * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
     * Make sure your dependencies are of high quality
 
+# General problems
+
+This section covers general problems regardless of your development goals.
 
 ## Node.js version
 ### Problem / Context
