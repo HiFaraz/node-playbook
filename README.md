@@ -31,6 +31,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 1. [General problems](#general-problems)
   1. [Node.js version](#nodejs-version)
   1. [Development environment](#development-environment)
+  1. [Workflow](#workflow)
   1. [File and folder structure](#file-and-folder-structure)
   1. [Coding style](#coding-style)
   1. [Native modules & Windows](#native-modules--windows)
@@ -84,6 +85,21 @@ Download and install these tools:
 * Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: you can upload/push much faster and clone repos from GitHub *and* BitBucket)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
+
+## Workflow
+### Problem / Context
+Thinking about how to set up a new project wastes time.
+### Recommended solution
+1. Create a new repo on either GitHub or BitBucket
+  * Choose Node under the gitignore settings when creating a repo
+  * Choose to create a README.md
+1. Clone it to your computer with either a terminal command or with SourceTree
+1. Set up your [file and folder structure](#file-and-folder-structure)
+1. Open a terminal window in your repo folder (or use the Terminal button when you open the repo in SourceTree)
+1. Run `npm init` in your terminal to create a `package.json` file
+  * Set your initial version to 0.1.0 (see also [version numbering](#version-numbering))
+  * If this is an open source project then choose an MIT license by typing `MIT` when prompted for a license name
+1. Run `atom ./` in your terminal to launch Atom in your project folder
 
 ## File and folder structure
 ### Problem / Context
