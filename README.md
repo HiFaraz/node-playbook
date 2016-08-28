@@ -4,7 +4,21 @@
 
 This is a opinionated guide to developing with Node.js. It helps you get started in a world of infinite options, rather than spending days researching basic choices.
 
+Some of the advice is not specific to Node.js.
+
 It is not the only way to develop with Node.js. It does not teach you how to program in JavaScript.
+
+## The Golden Rule: avoid coding wherever possible
+You should aim to be **optimally lazy**. There are only two principles:
+1. The fastest way to finish a task is to do nothing
+ * Ask yourself if you can live without it
+ * Less code means less bugs
+ * See also: [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+1. The second fastest way to finish a task is to get someone else to do it
+* For example, this playbook is an example of using someone else's work to get ahead
+ * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
+ * Use pre-built pieces of code, such as [npm modules](https://www.npmjs.com/)
+  * Make sure your dependencies are of high quality
 
 ## Development environment
 ### Problem / Context
