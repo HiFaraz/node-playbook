@@ -21,9 +21,21 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 ### What this is not
 
 * This does not teach you JavaScript
-* This is not the only way to develop with Node.js. Use this playbook to get started, then use other choices when applicable
+* This is **not the only way** to develop with Node.js. Use this playbook to get started, then use other choices when applicable
+* This is **not the best way** to develop with Node.js. It is *a way* that is good enough to get started without a lot of learning overhead
 * This does not replace the need to read documentation
 * Not all advice is specific to Node.js
+
+### How solutions were chosen
+
+Each solution was chosen after balancing:
+
+* is it mature? (look for a version 1)
+* does it have good documentation?
+* is it popular? (so that you can find lots of tutorials and a support community)
+* is it free and open source? (as much as possible, except for hosting and domains)
+* is it easy to learn?
+* is it practical to use daily?
 
 ## Contents
 
@@ -238,7 +250,7 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 Contributions are welcome through GitHub Issues! Please contribute by:
 
 * asking for recommended solutions to your favorite problem
-* offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the criteria for recommended solutions)
+* offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the [criteria](#how-solutions-were-chosen) for recommended solutions)
 
 ## License
 
