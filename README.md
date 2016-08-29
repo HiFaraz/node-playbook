@@ -31,6 +31,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 Each solution was chosen after balancing:
 
 * is it mature? (look for a version 1)
+* is it actively maintained?
 * does it have good documentation?
 * is it popular? (so that you can find lots of tutorials and a support community)
 * is it free and open source? (as much as possible, except for hosting and domains)
