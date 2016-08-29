@@ -36,6 +36,7 @@ Each solution was chosen after balancing:
 * is it free and open source? (as much as possible, except for hosting and domains)
 * is it easy to learn?
 * is it practical to use daily?
+* does it work well with the rest of the playbook?
 
 ## Contents
 
