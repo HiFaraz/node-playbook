@@ -210,7 +210,7 @@ I am seeking contributors for this section.
 ### Problem / Context
 Mobile development often requires learning new technologies and can increase complexity via context switching.
 ### Recommended Solution
-Use React Native. Since you've already learned and used React for your JavaScript web app you already know React, you don't have to learn anything new to build your mobile app. You can even completely reuse components from your web app in your mobile app as Facebook as reimplemented flexbox and common CSS properties on mobile. Simply run the [react-native-cli](https://www.npmjs.com/package/react-native-cli) to generate your app and you'll be all set. You can still use Atom as your IDE and the React Native documentation is well-written and covers most mobile topics from making API calls to core animation libraries. 
+Use React Native. Since you've already learned and used React for your JavaScript web app you already know React and don't have to learn anything new to build your mobile app. You can even completely reuse components from your web app in your mobile app as Facebook has reimplemented flexbox and common CSS properties on mobile. Simply run the [react-native-cli](https://www.npmjs.com/package/react-native-cli) to generate your app and you'll be all set. You can still use Atom as your IDE and the React Native documentation is well-written and covers most mobile topics from making API calls to core animation libraries. 
 
 # Developing desktop applications
 This section covers problems commonly encountered with developing and distributing desktop applications.
