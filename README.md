@@ -215,7 +215,7 @@ I am seeking contributors for this section.
 ### Problem / Context
 Deciding which cross platform framework to use is a waste of time.
 ### Recommended solution
-Use [Electron](http://electron.atom.io/). It is now considered stable as version 1 was released on May 11, 2016. It is backed by the makers of GitHub and Atom, and has a strong community. Electron apps build and run on Mac, Windows, andd Linux.
+Use [Electron](http://electron.atom.io/). It is now considered stable as version 1 was released on May 11, 2016. It is backed by the makers of GitHub and Atom, and has a strong community. Electron apps build and run on Mac, Windows, and Linux.
 
 ## Upcoming sections
 
