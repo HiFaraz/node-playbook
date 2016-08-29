@@ -92,11 +92,22 @@ Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clien
 Download and install these tools:
 * Editor: [Atom](https://atom.io/)
   * Atom packages/plug-ins:
+    * [Package Installation script here](https://gist.github.com/JTronLabs/941821b71a746dc31f418fd03a6c7236)
     * atom-beautify (go into `Settings > Packages` and enable `Beautify On Save` for CSS, HTML, JavaScript, JSON, and Markdown)
     * atom-html-preview (press `Ctrl+P` in the editor to open the preview)
     * fold-lines
-    * terminal-plus
+    * terminal-plus (terminal at bottom of editor)
     * markdown-preview (press `Ctrl+Shift+M` in the editor to open the preview)
+    * linter (A linter is a small program that checks code for stylistic or programming errors. [Available linters](http://atomlinter.github.io/) )
+    * linter-jshint (JavaScript linter)
+    * highlight-selected (Double click on a word to highlight it throughout the open file.)
+    * minimap (broad overview of code)
+    * minimap-cursorline
+    * atom-typescript (.ts support for atom)
+    * autoclose-html
+    * double-tag (edit HTML open and close tags simultaneously)
+    * color-picker (highlight a color, right click, choose color-picker. Can view & edit colors visually)
+    * package-sync (save atom packages across computers with a config file)
 * Version control: [git](https://git-scm.com/)
 * Repository (repo) hosting: [GitHub](https://github.com/)
   * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
