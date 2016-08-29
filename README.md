@@ -173,7 +173,7 @@ Choosing a technology stack (e.g. server framework, database, front-end framewor
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
   * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)] (looking for free CDN suggestions that support custom domains)
-  * JavaScript: no recommendation yet
+  * JavaScript: [React](https://facebook.github.io/react), create your app using [`create-react-app`](https://www.npmjs.com/package/create-react-app)
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
 # Developing a package
@@ -205,6 +205,12 @@ This section covers problems commonly encountered with:
 * serving mobile users for web applications
 
 I am seeking contributors for this section.
+
+## Building iOS / Android Apps
+### Problem / Context
+Mobile development often requires learning new technologies and can increase complexity via context switching.
+### Recommended Solution
+Use React Native. Since you've already learned and used React for your JavaScript web app you already know React and don't have to learn anything new to build your mobile app. You can even completely reuse components from your web app in your mobile app as Facebook has reimplemented flexbox and common CSS properties on mobile. Simply run the [react-native-cli](https://www.npmjs.com/package/react-native-cli) to generate your app and you'll be all set. You can still use Atom as your IDE and the React Native documentation is well-written and covers most mobile topics from making API calls to core animation libraries. 
 
 # Developing desktop applications
 This section covers problems commonly encountered with developing and distributing desktop applications.
