@@ -241,7 +241,7 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
   * Handling server overload (solution: toobusy)
   * Rate limiting and prevent brute force logins
   * Authentication (solution: jsonwebtoken)
-  * don't run your server on port 80 or 453
+  * don't run your server on port 80 or 443
   * security
   * ssl
   * message queues and async function execution
