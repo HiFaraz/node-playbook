@@ -182,6 +182,7 @@ Choosing a technology stack (e.g. server framework, database, front-end framewor
 * Back-end:
   * Hosting: [Heroku](https://www.heroku.com/) (free dyno option)
   * Server framework: [express](https://www.npmjs.com/package/express)
+  * Sockets: [socket.io](https://www.npmjs.com/package/socket.io)
   * Database: PostgresSQL (host it on Heroku)
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
@@ -249,7 +250,6 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
   * promises and callbacks
   * error handling
 * Developing for the web
-  * Working with sockets (solution: socket.io)
   * Creating a REST API server (solution: Swagger)
   * Deploying serverless (solution: serverless and AWS Lambda
   * Application architecture (solution: single page apps with a back-end API server)
