@@ -183,7 +183,7 @@ Choosing a technology stack (e.g. server framework, database, front-end framewor
   * Hosting: [Heroku](https://www.heroku.com/) (free dyno option)
   * Server framework: [express](https://www.npmjs.com/package/express)
   * Sockets: [socket.io](https://www.npmjs.com/package/socket.io)
-  * Database: PostgresSQL (host it on Heroku)
+  * Database: PostgreSQL (host it on Heroku)
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
