@@ -7,7 +7,7 @@ This is a opinionated "get started" guide to developing with Node.js.
 ### Who this is for
 
 * Beginners who just want to get a project started without too much hassle
-* Veterans who want a quick reference guide to unfamiliar parts of the Node.js ecosystem
+* Veterans who want a "get started" guide to unfamiliar parts of the Node.js ecosystem
 
 ### Problem / Context
 You waste time by:
