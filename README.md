@@ -4,6 +4,11 @@
 
 This is a opinionated "get started" guide to developing with Node.js.
 
+### Who this is for
+
+* Beginners who just want to get a project started without too much hassle
+* Veterans who want a quick reference guide to unfamiliar parts of the Node.js ecosystem
+
 ### Problem / Context
 You waste time by:
 
@@ -12,11 +17,6 @@ You waste time by:
 
 ### Recommended solution
 Follow this playbook. It recommends basic choices that let you focus on writing code instead of setting things up.
-
-### Who this is for
-
-* Beginners who just want to get a project started without too much hassle
-* Veterans who want a quick reference guide to unfamiliar parts of the Node.js ecosystem
 
 ### What this is not
 
@@ -30,7 +30,7 @@ Follow this playbook. It recommends basic choices that let you focus on writing 
 
 Each solution was chosen after balancing:
 
-* is it mature? (look for a version 1)
+* is it stable? (look for a version 1)
 * is it actively maintained?
 * does it have good documentation?
 * is it popular? (so that you can find lots of tutorials and a support community)
@@ -166,17 +166,18 @@ This section covers problems commonly encountered with developing, deploying, an
 Choosing a technology stack (e.g. server framework, database, front-end framework, hosting platform) wastes time. Every stack is different and affects your project, however this is mostly a matter of style. Every stack will do the job.
 ### Recommended solution
 * Back-end:
-  * Hosting: [Heroku](https://www.heroku.com/)
+  * Hosting: [Heroku](https://www.heroku.com/) (free dyno option)
   * Server framework: [express](https://www.npmjs.com/package/express)
   * Database: PostgresSQL (host it on Heroku)
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
-  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)] (looking for free CDN suggestions that support custom domains)
+  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)]
+    * (seeking free CDN suggestions that support custom domains)
   * JavaScript: no recommendation yet
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
-# Developing a package
+# Developing packages
 This section covers problems commonly encountered with developing and publishing reusable packages.
 
 ## Version numbering
