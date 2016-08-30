@@ -189,7 +189,7 @@ Choosing a technology stack (e.g. server framework, database, front-end framewor
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
   * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)]
     * (seeking free CDN suggestions that support custom domains)
-  * JavaScript: no recommendation yet
+  * JavaScript: [React](https://facebook.github.io/react), using [`react-slingshot`](https://github.com/coryhouse/react-slingshot) as a template for your project. `react-slingshot` will set you up with a project structure, an example app, and Redux as a state management system
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
 # Developing packages
