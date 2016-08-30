@@ -2,7 +2,7 @@
 
 # Node.js Playbook
 
-This is a opinionated "get started" guide to developing with Node.js.
+This is an opinionated "get started" guide to developing with Node.js.
 
 [Click here to jump to the table of contents](#contents)
 
