@@ -58,6 +58,7 @@ Each solution was chosen after balancing:
   1. [Cross platform framework](#cross-platform-framework)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
+  1. [Contributors](#contributors)
 1. [License](#license)
 
 # The Golden Rule: avoid coding wherever possible
@@ -266,13 +267,17 @@ Contributions are welcome through GitHub Issues! Please contribute by:
 * asking for recommended solutions to your favorite problem
 * offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the [criteria](#how-solutions-were-chosen) for recommended solutions)
 
-### Thanks to the following for contributing ideas and edits
+### Contributors
+Thanks to the following for helping with ideas and edits
 
+* [aem](https://github.com/aem)
 * [Calinou](https://github.com/Calinou)
 * [dodekeract](https://github.com/dodekeract)
 * [JTronLabs](https://github.com/JTronLabs)
 * [krokofant](https://github.com/krokofant)
 * [mateoKaradza](https://github.com/mateoKaradza)
+* [partounian](https://github.com/partounian)
+* [wli](https://github.com/wli)
 
 ## License
 
