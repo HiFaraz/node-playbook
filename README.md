@@ -109,8 +109,8 @@ Download and install these tools:
     * color-picker (highlight a color, right click, choose color-picker. Can view & edit colors visually)
     * package-sync (save atom packages across computers with a config file)
 * Version control: [git](https://git-scm.com/)
-* Repository (repo) hosting: [GitHub](https://github.com/) ([free private repos for students](https://education.github.com/))
-  * for private repos: either pay GitHub or use [BitBucket](https://bitbucket.org/) instead
+* Repository (repo) hosting: [GitHub](https://github.com/)
+  * [free private repos for students](https://education.github.com/)
 * Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: you can upload/push much faster and clone repos from GitHub *and* BitBucket)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
@@ -265,6 +265,14 @@ Contributions are welcome through GitHub Issues! Please contribute by:
 
 * asking for recommended solutions to your favorite problem
 * offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the [criteria](#how-solutions-were-chosen) for recommended solutions)
+
+### Thanks to the following for contributing ideas and edits
+
+* [Calinou](https://github.com/Calinou)
+* [dodekeract](https://github.com/dodekeract)
+* [JTronLabs](https://github.com/JTronLabs)
+* [krokofant](https://github.com/krokofant)
+* [mateoKaradza](https://github.com/mateoKaradza)
 
 ## License
 
