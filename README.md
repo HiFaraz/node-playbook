@@ -4,6 +4,8 @@
 
 This is a opinionated "get started" guide to developing with Node.js.
 
+[Click here to jump to the table of contents](#contents)
+
 ### Who this is for
 
 * Beginners who just want to get a project started without too much hassle
