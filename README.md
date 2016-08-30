@@ -94,7 +94,7 @@ Download and install these tools:
 * Editor: [Atom](https://atom.io/)
   * Atom packages/plug-ins:
     * [Package Installation script here](https://gist.github.com/JTronLabs/941821b71a746dc31f418fd03a6c7236)
-    * atom-beautify (go into `Settings > Packages` and enable `Beautify On Save` for CSS, HTML, JavaScript, JSON, and Markdown)
+    * atom-beautify ( `Edit` ➔ `Preferences` ➔ Search for `atom-beautify`), find `HTML`, and toggle the `Beautify On Save` option.)
     * atom-html-preview (press `Ctrl+P` in the editor to open the preview)
     * fold-lines
     * terminal-plus (terminal at bottom of editor)
