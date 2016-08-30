@@ -183,7 +183,7 @@ Choosing a technology stack (e.g. server framework, database, front-end framewor
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
-  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)] (looking for free CDN suggestions that support custom domains)
+  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link]] (https://www.namecheap.com/hosting/shared.aspx) (looking for free CDN suggestions that support custom domains)
   * JavaScript: no recommendation yet
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
