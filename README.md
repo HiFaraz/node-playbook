@@ -280,11 +280,16 @@ Thanks to the following for helping with ideas and edits
 * [aem](https://github.com/aem)
 * [Calinou](https://github.com/Calinou)
 * [dodekeract](https://github.com/dodekeract)
+* [helloworld](https://github.com/helloworld)
+* [houjunchen](https://github.com/houjunchen)
 * [JTronLabs](https://github.com/JTronLabs)
 * [krokofant](https://github.com/krokofant)
 * [mateoKaradza](https://github.com/mateoKaradza)
+* [Morrisai](https://github.com/Morrisai)
 * [partounian](https://github.com/partounian)
+* [talkahe](https://github.com/talkahe)
 * [wli](https://github.com/wli)
+* [xxdavid](https://github.com/xxdavid)
 
 ## License
 
