@@ -139,7 +139,7 @@ Set up a brand new project.
 1. Run `npm init` in your terminal to create a `package.json` file
   * Set your initial version to `0.1.0` (see also [version numbering](#version-numbering))
   * For open source projects choose an MIT license by typing `MIT` when prompted for a license name
-1. Run `atom ./` in your terminal to launch Atom in your project folder
+1. Run `atom .` in your terminal to launch Atom in your project folder
 
 [(back to top)](#contents)
 
