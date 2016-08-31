@@ -239,9 +239,9 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 This section covers problems commonly encountered with developing and publishing reusable packages.
 
 ## Version numbering
-### Problem / Context
-Deciding on a version number scheme wastes time. Using a non-standard scheme confuses anyone using your package.
-### Recommended solution
+### Goal
+Update version numbers in a way that indicates how significantly the package has changed for its users
+### Solution
 Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most important bits to get started:
 
 > Given a version number MAJOR.MINOR.PATCH, increment the:
