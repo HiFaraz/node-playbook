@@ -2,7 +2,7 @@
 
 # Node.js Playbook
 
-This is a opinionated "get started" guide to developing with Node.js.
+This is an opinionated "get started" guide to developing with Node.js.
 
 [Click here to jump to the table of contents](#contents)
 
@@ -95,11 +95,11 @@ Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clien
 Download and install these tools:
 * Editor: [Atom](https://atom.io/)
   * Atom packages/plug-ins:
-    * [Package Installation script here](https://gist.github.com/JTronLabs/941821b71a746dc31f418fd03a6c7236)
+    * [Package Installation script here](https://gist.github.com/talkahe/25d1f34d2aec3cf662b29309ec08635d)
     * atom-beautify ( `Ctrl/Cmd+comma` ➔ `Packages` ➔ Search for `atom-beautify` ➔ `Settings` ➔ toggle the `Beautify On Save` option for every language you want)
     * atom-html-preview (press `Ctrl+P` in the editor to open the preview)
     * fold-lines
-    * terminal-plus (terminal at bottom of editor)
+    * platformio-ide-terminal (terminal at bottom of editor)
     * markdown-preview (press `Ctrl+Shift+M` in the editor to open the preview)
     * linter (A linter is a small program that checks code for stylistic or programming errors. [Available linters](http://atomlinter.github.io/) )
     * linter-jshint (JavaScript linter)
@@ -183,13 +183,13 @@ Choosing a technology stack (e.g. server framework, database, front-end framewor
   * Hosting: [Heroku](https://www.heroku.com/) (free dyno option)
   * Server framework: [express](https://www.npmjs.com/package/express)
   * Sockets: [socket.io](https://www.npmjs.com/package/socket.io)
-  * Database: PostgresSQL (host it on Heroku)
+  * Database: PostgreSQL (host it on Heroku)
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
   * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)]
     * (seeking free CDN suggestions that support custom domains)
-  * JavaScript: no recommendation yet
+  * JavaScript: [React](https://facebook.github.io/react), using [`react-slingshot`](https://github.com/coryhouse/react-slingshot) as a template for your project. `react-slingshot` will set you up with a project structure, an example app, and Redux as a state management system
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
 # Developing packages
