@@ -79,6 +79,8 @@ Be **optimally lazy**. There are only two principles:
   * Use pre-built pieces of code, such as [npm packages](https://www.npmjs.com/)
     * Make sure you use high quality dependencies
 
+[(back to top)](#contents)
+
 # General
 This section covers general problems regardless of your development goals.
 
@@ -89,6 +91,8 @@ Install Node.js.
 This sounds simple enough, but unfortunately the Node.js website makes you choose a version of Node.js to download.
 ### Solution
 Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app. This advice expires on April 1, 2019.
+
+[(back to top)](#contents)
 
 ## Development environment
 ### Goal
@@ -120,6 +124,8 @@ Download and install these tools:
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
 
+[(back to top)](#contents)
+
 ## Workflow
 ### Goal
 Set up a brand new project.
@@ -135,6 +141,8 @@ Set up a brand new project.
   * For open source projects choose an MIT license by typing `MIT` when prompted for a license name
 1. Run `atom ./` in your terminal to launch Atom in your project folder
 
+[(back to top)](#contents)
+
 ## File and folder structure
 ### Goal
 Set up a file and folder structure that lets you add more complexity later, such as build and test systems.
@@ -145,6 +153,8 @@ Set up a file and folder structure that lets you add more complexity later, such
   1. `build` (optional): use this as a destination folder if/when you implement a build system (something that converts your source code to another form)
 1. Create a file in the `source` sub-folder called `index.js`
 
+[(back to top)](#contents)
+
 ## Coding style
 ### Goal
 Develop a coding style that lets you share your code without embarrassment.
@@ -152,6 +162,8 @@ Develop a coding style that lets you share your code without embarrassment.
 A sloppy coding style reflects poorly on you.
 ### Solution
 Follow [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
+
+[(back to top)](#contents)
 
 ## Native modules and Windows
 ### Goal
@@ -176,6 +188,8 @@ Do this **if and only if** you cannot find a suitable alternative npm package.
 
 Follow the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation).
 
+[(back to top)](#contents)
+
 # Web
 Read this if you are trying to build a web application.
 
@@ -197,12 +211,16 @@ Choose a technology stack (e.g. server framework, database, front-end framework,
     * Use [react-slingshot](https://github.com/coryhouse/react-slingshot) as a template. It sets up a project structure, an example app, and [Redux](https://github.com/reactjs/redux) as a state management system
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
+[(back to top)](#contents)
+
 # Mobile
 This section covers problems commonly encountered with:
 * developing and distributing native mobile applications in JavaScript
 * serving mobile users for web applications
 
 I am seeking contributors for this section.
+
+[(back to top)](#contents)
 
 # Desktop
 This section covers problems commonly encountered with developing and distributing desktop applications.
@@ -214,6 +232,8 @@ I am seeking contributors for this section.
 Package and run your Node.js app as a desktop application on any operating system (OS).
 ### Solution
 Use [Electron](http://electron.atom.io/). It is now considered stable as version 1 was released on May 11, 2016. It is backed by the makers of GitHub and Atom, and has a strong community. Electron apps build and run on Mac, Windows, and Linux.
+
+[(back to top)](#contents)
 
 # Packages
 This section covers problems commonly encountered with developing and publishing reusable packages.
@@ -237,6 +257,8 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
 > How do I know when to release 1.0.0?
 >
 > If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.
+
+[(back to top)](#contents)
 
 ## Upcoming sections
 
@@ -268,6 +290,8 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
 * Developing mobile applications
   * immediate user feedback for server requests
 
+[(back to top)](#contents)
+
 ## Contributing
 Contributions are welcome through GitHub Issues! Please contribute by:
 
@@ -290,6 +314,8 @@ Thanks to the following for helping with ideas and edits
 * [talkahe](https://github.com/talkahe)
 * [wli](https://github.com/wli)
 * [xxdavid](https://github.com/xxdavid)
+
+[(back to top)](#contents)
 
 ## License
 
@@ -314,3 +340,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[(back to top)](#contents)
