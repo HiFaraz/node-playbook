@@ -2,31 +2,31 @@
 
 # Node.js Playbook
 
-This is an opinionated "get started" guide to developing with Node.js.
+Node.js Playbook is an opinionated "get started" guide to developing with Node.js.
+
+The playbook helps you in two ways:
+* **solving problems:** if you have a specific need, it gives you a solution that works for most people
+* **discovering new ideas**: if you just browse, you will learn new things that can help your project
 
 [Click here to jump to the table of contents](#contents)
 
 ### Who this is for
 
-* Beginners who just want to get a project started without too much hassle
-* Veterans who want a "get started" guide to unfamiliar parts of the Node.js ecosystem
+* **Beginners** who just want to get a project started without too much hassle
+* **Experience programmers** who want a "get started" guide to unfamiliar parts of the Node.js ecosystem
 
-### Problem / Context
-You waste time by:
+### How to use this playbook
 
-* discovering/researching basic aspects of Node.js development, and
-* choosing from amongst several tool options that do the same job
+The playbook is a learning tool, and you must understand its limitations.
 
-### Recommended solution
-Follow this playbook. It recommends basic choices that let you focus on writing code instead of setting things up.
-
-### What this is not
-
+* Read documentation and tutorials to implement any solution. The playbook does not replace them
+* This does not teach you how to program
 * This does not teach you JavaScript
-* This is **not the only way** to develop with Node.js. Use this playbook to get started, then use other choices when applicable
-* This is **not the best way** to develop with Node.js. It is *a way* that is good enough to get started without a lot of learning overhead
-* This does not replace the need to read documentation
+* This is **not the only way** to develop with Node.js. Use this playbook to get started, and keep learning about other ways to solve do things in Node.js
+* This is **not the best way** to develop with Node.js. It is *a way* that is good enough to get started without a lot of learning overhead. Once your project grows in complexity you are expected to find solutions that are a better fit for your needs
 * Not all advice is specific to Node.js
+
+**Do not use this playbook as your only source of learning.** The playbook only gives you the most broadly applicable solution. As your needs grow you should explore other solutions. This is not the be all and end all of Node.js development. It should only be a part of your learning experience and exploration, not the whole.
 
 ### How solutions were chosen
 
@@ -44,23 +44,23 @@ Each solution was chosen after balancing:
 ## Contents
 
 1. [The Golden Rule: avoid coding wherever possible](#the-golden-rule-avoid-coding-wherever-possible)
-1. [General problems](#general-problems)
-  1. [Node.js version](#nodejs-version)
+1. [General](#general)
+  1. [Installing Node.js](#installing-nodejs)
   1. [Development environment](#development-environment)
   1. [Workflow](#workflow)
   1. [File and folder structure](#file-and-folder-structure)
   1. [Coding style](#coding-style)
   1. [Native modules and Windows](#native-modules-and-windows)
-1. [Developing for the web](#developing-for-the-web)
+1. [Web](#web)
   1. [Technology stack](#technology-stack)
-1. [Developing a package](#developing-a-package)
+1. [Mobile](#mobile)
+1. [Desktop](#desktop)
+  1. [Multi-OS framework](#multi-os-framework)
+1. [Packages](#packages)
   1. [Version numbering](#version-numbering)
-1. [Developing mobile applications](#developing-mobile-applications)
-1. [Developing desktop applications](#developing-desktop-applications)
-  1. [Cross platform framework](#cross-platform-framework)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
-  1. [Contributors](#contributors)
+  1. [Acknowledgements](#acknowledgements)
 1. [License](#license)
 
 # The Golden Rule: avoid coding wherever possible
@@ -77,21 +77,23 @@ Be **optimally lazy**. There are only two principles:
   * For example, this playbook is an example of using someone else's work to get ahead
   * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
   * Use pre-built pieces of code, such as [npm packages](https://www.npmjs.com/)
-    * Make sure your dependencies are of high quality
+    * Make sure you use high quality dependencies
 
-# General problems
+# General
 This section covers general problems regardless of your development goals.
 
-## Node.js version
-### Problem / Context
-The Node.js website makes you choose which version of Node.js to download. Choosing a Node.js version wastes time.
-### Recommended solution
-Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app.
+## Installing Node.js
+### Goal
+Install Node.js.
+
+This sounds simple enough, but unfortunately the Node.js website makes you choose a version of Node.js to download.
+### Solution
+Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app. This advice expires on April 1, 2019.
 
 ## Development environment
-### Problem / Context
-Choosing a development environment (e.g. editors, git GUIs, terminals, FTP clients) wastes time. No tool is 10 times better than another. You need a set of tools that get you started and let you grow according to you needs.
-### Recommended solution
+### Goal
+Set up a development environment (e.g. editors, git GUIs, terminals, FTP clients) that gets you started and lets you grow according to you needs.
+### Solution
 Download and install these tools:
 * Editor: [Atom](https://atom.io/)
   * Atom packages/plug-ins:
@@ -114,29 +116,29 @@ Download and install these tools:
 * Version control: [git](https://git-scm.com/)
 * Repository (repo) hosting: [GitHub](https://github.com/)
   * [free private repos for students](https://education.github.com/)
-* Git GUI: [SourceTree](https://www.sourcetreeapp.com/) (why: you can upload/push much faster and clone repos from GitHub *and* BitBucket)
+* Git GUI: [SourceTree](https://www.sourcetreeapp.com/)
 * API testing: [Postman](https://www.getpostman.com/apps)
 * Socket testing: [Socket.io tester](https://chrome.google.com/webstore/detail/socketio-tester/cgmimdpepcncnjgclhnhghdooepibakm?hl=en)
 
 ## Workflow
-### Problem / Context
-Thinking about how to set up a new project wastes time.
-### Recommended solution
-1. Create a new repo on either GitHub or BitBucket
+### Goal
+Set up a brand new project.
+### Solution
+1. Create a new repo on GitHub
   * Choose Node under the gitignore settings when creating a repo
-  * Choose to create a README.md
-1. Clone it to your computer with either a terminal command or with SourceTree
+  * Choose to create a README.md file
+1. Clone it to your computer using either a terminal command or SourceTree
 1. Set up your [file and folder structure](#file-and-folder-structure)
 1. Open a terminal window in your repo folder (or use the Terminal button when you open the repo in SourceTree)
 1. Run `npm init` in your terminal to create a `package.json` file
-  * Set your initial version to 0.1.0 (see also [version numbering](#version-numbering))
-  * If this is an open source project then choose an MIT license by typing `MIT` when prompted for a license name
+  * Set your initial version to `0.1.0` (see also [version numbering](#version-numbering))
+  * For open source projects choose an MIT license by typing `MIT` when prompted for a license name
 1. Run `atom ./` in your terminal to launch Atom in your project folder
 
 ## File and folder structure
-### Problem / Context
-Thinking about how to set up your project file and folder structure wastes time.
-### Recommended solution
+### Goal
+Set up a file and folder structure that lets you add more complexity later, such as build and test systems.
+### Solution
 1. Create three subfolders:
   1. `source`: place all your source code here
   1. `test`: place all testing code here
@@ -144,14 +146,18 @@ Thinking about how to set up your project file and folder structure wastes time.
 1. Create a file in the `source` sub-folder called `index.js`
 
 ## Coding style
-### Problem / Context
-Fretting over coding style wastes time, and a sloppy coding style reflects poorly on you. You need a coding style that looks decent and is easy to follow.
-### Recommended solution
+### Goal
+Develop a coding style that lets you share your code without embarrassment.
+
+A sloppy coding style reflects poorly on you.
+### Solution
 Follow [Airbnb's Javascript Style Guide](https://github.com/airbnb/javascript)
 
 ## Native modules and Windows
-### Problem / Context
-Some npm packages do not install on Windows because they contain non-JavaScript code. You will see errors related to `node-gyp` when you try to install them.
+### Goal
+Fix errors related to `node-gyp` when you try to install an npm package.
+
+The problem is due to non-JavaScript code in the package, which npm tries to build on your computer. You will get errors unless you have the build environment installed.
 ### Recommended solution
 Find another npm package that does the job in pure JavaScript. For example, [bcryptjs](https://www.npmjs.com/package/bcryptjs) is a drop-in replacement for the popular [bcrypt](https://www.npmjs.com/package/bcrypt) module.
 
@@ -170,29 +176,46 @@ Do this **if and only if** you cannot find a suitable alternative npm package.
 
 Follow the Windows installation instructions at the [node-gyp README](https://github.com/nodejs/node-gyp#Installation).
 
-I never got this to work despite many tries.
-
-# Developing for the web
-This section covers problems commonly encountered with developing, deploying, and distributing web applications.
+# Web
+Read this if you are trying to build a web application.
 
 ## Technology stack
-### Problem / Context
-Choosing a technology stack (e.g. server framework, database, front-end framework, hosting platform) wastes time. Every stack is different and affects your project, however this is mostly a matter of style. Every stack will do the job.
-### Recommended solution
+### Goal
+Choose a technology stack (e.g. server framework, database, front-end framework, hosting platform).
+### Solution
 * Back-end:
-  * Hosting: [Heroku](https://www.heroku.com/) (free dyno option)
+  * Hosting: [Heroku](https://www.heroku.com/) (choose the "free dyno" option)
   * Server framework: [express](https://www.npmjs.com/package/express)
   * Sockets: [socket.io](https://www.npmjs.com/package/socket.io)
-  * Database: PostgreSQL (host it on Heroku)
+  * Database: PostgreSQL (host it on Heroku with the free option)
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
-  * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/domains/registration.aspx)]
-  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx?aff=103766) (affiliate link) [[non-affiliate link](https://www.namecheap.com/hosting/shared.aspx)]
+  * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx)
+  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx)
     * (seeking free CDN suggestions that support custom domains)
-  * JavaScript: [React](https://facebook.github.io/react), using [`react-slingshot`](https://github.com/coryhouse/react-slingshot) as a template for your project. `react-slingshot` will set you up with a project structure, an example app, and Redux as a state management system
+  * JavaScript: [React](https://facebook.github.io/react)
+    * Use [react-slingshot](https://github.com/coryhouse/react-slingshot) as a template. It sets up a project structure, an example app, and [Redux](https://github.com/reactjs/redux) as a state management system
   * Styling: [Bootstrap](http://getbootstrap.com/)
 
-# Developing packages
+# Mobile
+This section covers problems commonly encountered with:
+* developing and distributing native mobile applications in JavaScript
+* serving mobile users for web applications
+
+I am seeking contributors for this section.
+
+# Desktop
+This section covers problems commonly encountered with developing and distributing desktop applications.
+
+I am seeking contributors for this section.
+
+## Multi-OS framework
+### Goal
+Package and run your Node.js app as a desktop application on any operating system (OS).
+### Solution
+Use [Electron](http://electron.atom.io/). It is now considered stable as version 1 was released on May 11, 2016. It is backed by the makers of GitHub and Atom, and has a strong community. Electron apps build and run on Mac, Windows, and Linux.
+
+# Packages
 This section covers problems commonly encountered with developing and publishing reusable packages.
 
 ## Version numbering
@@ -214,24 +237,6 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
 > How do I know when to release 1.0.0?
 >
 > If your software is being used in production, it should probably already be 1.0.0. If you have a stable API on which users have come to depend, you should be 1.0.0. If you’re worrying a lot about backwards compatibility, you should probably already be 1.0.0.
-
-# Developing mobile applications
-This section covers problems commonly encountered with:
-* developing and distributing native mobile applications in JavaScript
-* serving mobile users for web applications
-
-I am seeking contributors for this section.
-
-# Developing desktop applications
-This section covers problems commonly encountered with developing and distributing desktop applications.
-
-I am seeking contributors for this section.
-
-## Cross platform framework
-### Problem / Context
-Deciding which cross platform framework to use is a waste of time.
-### Recommended solution
-Use [Electron](http://electron.atom.io/). It is now considered stable as version 1 was released on May 11, 2016. It is backed by the makers of GitHub and Atom, and has a strong community. Electron apps build and run on Mac, Windows, and Linux.
 
 ## Upcoming sections
 
@@ -269,7 +274,7 @@ Contributions are welcome through GitHub Issues! Please contribute by:
 * asking for recommended solutions to your favorite problem
 * offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the [criteria](#how-solutions-were-chosen) for recommended solutions)
 
-### Contributors
+### Acknowledgements
 Thanks to the following for helping with ideas and edits
 
 * [aem](https://github.com/aem)
