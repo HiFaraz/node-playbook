@@ -4,11 +4,11 @@
 
 Node.js Playbook is an opinionated "get started" guide to developing with Node.js.
 
+[Click here to jump to the table of contents](#contents)
+
 The playbook helps you in two ways:
 * **solving problems:** if you have a specific need, it gives you a solution that works for most people
 * **discovering new ideas**: if you just browse, you will learn new things that can help your project
-
-[Click here to jump to the table of contents](#contents)
 
 ### Who this is for
 
@@ -83,12 +83,9 @@ Be **optimally lazy**. There are only two principles:
 This section covers general problems regardless of your development goals.
 
 ## Installing Node.js
-### Goal
-Install Node.js.
-
-This sounds simple enough, but unfortunately the Node.js website makes you choose a version of Node.js to download.
-### Solution
-Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app. This advice expires on April 1, 2019.
+|Goal|Solution|
+|---|---|
+|**Install Node.js.** This sounds simple enough, but unfortunately the Node.js website makes you choose a version of Node.js to download.|Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app. This advice expires on April 1, 2019.|
 
 ## Development environment
 ### Goal
