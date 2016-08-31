@@ -241,7 +241,15 @@ This section covers problems commonly encountered with developing and publishing
 ### Goal
 Update version numbers in a way that indicates how significantly the package has changed for its users
 ### Solution
-Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most important bits to get started:
+Use [Semantic Versioning](http://semver.org/) (a.k.a. semver).
+
+- Increment your patch (0.0.x) version with `npm version patch`
+- Increment your minor (0.x.0) version with `npm version minor`
+- Increment your major (x.0.0) version with `npm version major`
+
+Using `npm version` will give you automatic `package.json` version updates, and will also create a git tag for you, that you can simply push with `npm push --tags`.
+
+Here are the most important bits about semver:
 
 > Given a version number MAJOR.MINOR.PATCH, increment the:
 >
