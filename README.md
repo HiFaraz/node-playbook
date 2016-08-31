@@ -84,7 +84,7 @@ This section covers general problems regardless of your development goals.
 
 ## Node.js version
 ### Problem / Context
-Many versions are listed on the Node.js website. Choosing a Node.js version wastes time.
+The Node.js website makes you choose which version of Node.js to download. Choosing a Node.js version wastes time.
 ### Recommended solution
 Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app.
 
