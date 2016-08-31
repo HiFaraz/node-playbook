@@ -96,21 +96,21 @@ Download and install these tools:
 * Editor: [Atom](https://atom.io/)
   * Atom packages/plug-ins:
     * [Package Installation script here](https://gist.github.com/talkahe/25d1f34d2aec3cf662b29309ec08635d)
-    * atom-beautify ( `Ctrl/Cmd+comma` ➔ `Packages` ➔ Search for `atom-beautify` ➔ `Settings` ➔ toggle the `Beautify On Save` option for every language you want)
-    * atom-html-preview (press `Ctrl+P` in the editor to open the preview)
-    * fold-lines
-    * platformio-ide-terminal (terminal at bottom of editor)
-    * markdown-preview (press `Ctrl+Shift+M` in the editor to open the preview)
-    * linter (A linter is a small program that checks code for stylistic or programming errors. [Available linters](http://atomlinter.github.io/) )
-    * linter-jshint (JavaScript linter)
-    * highlight-selected (Double click on a word to highlight it throughout the open file.)
-    * minimap (broad overview of code)
-    * minimap-cursorline
-    * atom-typescript (.ts support for atom)
-    * autoclose-html
-    * double-tag (edit HTML open and close tags simultaneously)
-    * color-picker (highlight a color, right click, choose color-picker. Can view & edit colors visually)
-    * package-sync (save atom packages across computers with a config file)
+    * `atom-beautify` ( `Ctrl/Cmd+comma` ➔ `Packages` ➔ Search for `atom-beautify` ➔ `Settings` ➔ toggle the `Beautify On Save` option for every language you want)
+    * `atom-html-preview` (press `Ctrl/Cmd+P` in the editor to open the preview)
+    * `fold-lines`
+    * `platformio-ide-terminal` (terminal at bottom of editor)
+    * `markdown-preview` (press `Ctrl/Cmd+Shift+M` in the editor to open the preview)
+    * `linter` (A linter is a small program that checks code for stylistic or programming errors. [Available linters](http://atomlinter.github.io/) )
+    * `linter-jshint` (JavaScript linter)
+    * `highlight-selected` (Double click on a word to highlight it throughout the open file.)
+    * `minimap` (broad overview of code)
+    * `minimap-cursorline`
+    * `atom-typescript` (`.ts` support for atom)
+    * `autoclose-html`
+    * `double-tag` (edit HTML open and close tags simultaneously)
+    * `color-picker` (highlight a color, right click, choose color-picker. Can view & edit colors visually)
+    * `package-sync` (save atom packages across computers with a config file)
 * Version control: [git](https://git-scm.com/)
 * Repository (repo) hosting: [GitHub](https://github.com/)
   * [free private repos for students](https://education.github.com/)
