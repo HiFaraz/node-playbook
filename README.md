@@ -148,10 +148,9 @@ Set up a brand new project.
 Set up a file and folder structure that lets you add more complexity later, such as build and test systems.
 ### Solution
 1. Create three subfolders:
-  1. `source`: place all your source code here
+  1. `src`: place all your source code here
   1. `test`: place all testing code here
-  1. `build` (optional): use this as a destination folder if/when you implement a build system (something that converts your source code to another form)
-1. Create a file in the `source` sub-folder called `index.js`
+1. Create a file in the `src` sub-folder called `index.js`
 
 [(back to top)](#contents)
 
