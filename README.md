@@ -273,9 +273,12 @@ Use [Semantic Versioning](http://semver.org/) (a.k.a. semver). Here are the most
   * testing
   * user analytics and app monitoring
   * other analytics: keen.io, google analytics and kissmetrics, and key metrics
-  * npm publish scripts that update version number for you
   * promises and callbacks
   * error handling
+* Packages
+  * Writing command line tools
+  * Publishing to NPM
+  * npm publish scripts that update version number for you
 * Developing for the web
   * Creating a REST API server (solution: Swagger)
   * Deploying serverless (solution: serverless and AWS Lambda
