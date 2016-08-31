@@ -303,10 +303,13 @@ Here are the most important bits about semver:
 [(back to top)](#contents)
 
 ## Contributing
-Contributions are welcome through GitHub Issues! Please contribute by:
+Contributions are welcome! Here's how you can help:
 
-* asking for recommended solutions to your favorite problem
-* offering recommended solutions to a problem in [Upcoming sections](#upcoming-sections) or in a GitHub Issue (please note the [criteria](#how-solutions-were-chosen) for recommended solutions)
+|If you want to ...|How to contribute|
+|---|---|
+|Ask for a recommended solution to a particular problem or goal|First, check the [Upcoming sections](#upcoming-sections). We may already be planning to work on it.<br><br>If it isn't listed in the Upcoming sections, please either create a GitHub Issue or send a pull request to add it to the Upcoming sections.|
+|Provide a solution to a problem or goal |That's great! Please create a GitHub issue to discuss the solution *before* creating a pull request. Please consider the [criteria for accepting a solution](#how-solutions-were-chosen).|
+|Offer a better solution than one already in the Playbook.|Please create a GitHub Issue to discuss this. Consider whether it meets the [criteria for accepting a solution](#how-solutions-were-chosen). Because we are focused on finishing upcoming sections, we are only accepting improvements if they are **vastly** better than the current solution.|
 
 ### Acknowledgements
 Thanks to the following for helping with ideas and edits
