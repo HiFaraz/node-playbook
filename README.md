@@ -315,6 +315,7 @@ Contributions are welcome! Here's how you can help:
 Thanks to the following for helping with ideas and edits
 
 * [aem](https://github.com/aem)
+* [antony](https://github.com/antony)
 * [Calinou](https://github.com/Calinou)
 * [dodekeract](https://github.com/dodekeract)
 * [helloworld](https://github.com/helloworld)
