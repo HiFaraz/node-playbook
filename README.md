@@ -79,7 +79,7 @@ Be **optimally lazy**. There are only two principles:
   * For example, this playbook is an example of using someone else's work to get ahead
   * Use [Node.js core API](https://nodejs.org/api/) if you can get away with it
   * Use pre-built pieces of code, such as [npm packages](https://www.npmjs.com/)
-    * Make sure you use high quality dependencies
+    * Make sure you use [high quality dependencies](#how-solutions-were-chosen)
 
 [(back to top)](#contents)
 
