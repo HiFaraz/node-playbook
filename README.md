@@ -270,24 +270,25 @@ Here are the most important bits about semver:
 
 ## Upcoming sections
 
-* General problems
-  * understanding event driven programming
+We'd like your help to make the Playbook more useful! Here are some sections that we'd love to receive a pull request on:
+
+* General
+  * Understanding event driven programming
   * Clustering (solution: throng)
   * Password hashing (solution: bcrypt)
   * Saving exact and secure dependency versions (solution: --save-exact, --secure, and .npmrc)
   * Good documentation / READMEs
   * Debug logging (solution: debug)
   * Event emitter (solution: eventemitter3)
-  * testing
-  * user analytics and app monitoring
-  * other analytics: keen.io, google analytics and kissmetrics, and key metrics
-  * promises and callbacks
-  * error handling
+  * Testing
+  * User analytics and app monitoring
+  * Other analytics: keen.io, google analytics and kissmetrics, and key metrics
+  * Promises and callbacks, async code execution (maybe asyncawait too)
+  * Error handling: callback convention, Promise.catch, try/catch for sync code
 * Packages
   * Writing command line tools
   * Publishing to NPM
-  * npm publish scripts that update version number for you
-* Developing for the web
+* Web
   * Creating a REST API server (solution: Swagger)
   * Deploying serverless (solution: serverless and AWS Lambda)
   * IaaS vs PaaS vs BaaS vs FaaS/serverless
@@ -295,12 +296,12 @@ Here are the most important bits about semver:
   * Handling server overload (solution: toobusy)
   * Rate limiting and prevent brute force logins
   * Authentication (solution: jsonwebtoken)
-  * don't run your server on port 80 or 443
-  * security
-  * ssl
-  * message queues and async function execution
-* Developing mobile applications
-  * immediate user feedback for server requests
+  * Don't run your server on port 80 or 443, use a reverse proxy
+  * Security
+  * SSL
+  * Message queues and async function execution
+* Mobile
+  * Immediate user feedback for server requests
 
 [(back to top)](#contents)
 
