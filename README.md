@@ -62,7 +62,7 @@ Each solution was chosen after balancing:
   1. [Version numbering](#version-numbering)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
-  1. [Acknowledgements](#acknowledgements)
+  1. [Acknowledgements](#heart-acknowledgements)
 1. [License](#license)
 
 # The Golden Rule: avoid coding wherever possible
