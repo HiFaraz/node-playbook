@@ -8,6 +8,8 @@ The playbook helps you in two ways:
 * **solving problems:** if you have a specific need, it gives you a solution that works for most people
 * **discovering new ideas**: if you just browse, you will learn new things that can help your project
 
+:globe_with_meridians: How to get here: [nodeplaybook.com](http://nodeplaybook.com)
+
 [Click here to jump to the table of contents](#contents)
 
 ### Who this is for
@@ -312,7 +314,7 @@ Contributions are welcome! Here's how you can help:
 |Offer a better solution than one already in the Playbook.|Please create a GitHub Issue to discuss this. Consider whether it meets the [criteria for accepting a solution](#how-solutions-were-chosen). Because we are focused on finishing upcoming sections, we are only accepting improvements if they are **vastly** better than the current solution.|
 |Translate the Playbook|That's great! Please join the discussion in our [i8n GitHub Issue](https://github.com/HiFaraz/node-playbook/issues/20).|
 
-### Acknowledgements
+### :heart: Acknowledgements
 Thanks to the following for helping with ideas and edits
 
 * [aem](https://github.com/aem)
