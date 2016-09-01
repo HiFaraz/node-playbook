@@ -205,7 +205,7 @@ Choose a technology stack (e.g. server framework, database, front-end framework,
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx)
   * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx)
-    * (seeking free CDN suggestions that support custom domains)
+    * DNS/CDN: [CloudFlare](https://www.cloudflare.com)
   * JavaScript: [React](https://facebook.github.io/react)
     * Use [react-slingshot](https://github.com/coryhouse/react-slingshot) as a template. It sets up a project structure, an example app, and [Redux](https://github.com/reactjs/redux) as a state management system
   * Styling: [Bootstrap](http://getbootstrap.com/)
