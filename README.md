@@ -289,7 +289,8 @@ Here are the most important bits about semver:
   * npm publish scripts that update version number for you
 * Developing for the web
   * Creating a REST API server (solution: Swagger)
-  * Deploying serverless (solution: serverless and AWS Lambda
+  * Deploying serverless (solution: serverless and AWS Lambda)
+  * IaaS vs PaaS vs BaaS vs FaaS/serverless
   * Application architecture (solution: single page apps with a back-end API server)
   * Handling server overload (solution: toobusy)
   * Rate limiting and prevent brute force logins
