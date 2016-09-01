@@ -324,7 +324,7 @@ Thanks to the following for helping with ideas and edits
 * [krokofant](https://github.com/krokofant)
 * [mateoKaradza](https://github.com/mateoKaradza)
 * [Morrisai](https://github.com/Morrisai)
-* [NicoPennec] (https://github.com/NicoPennec)
+* [NicoPennec](https://github.com/NicoPennec)
 * [partounian](https://github.com/partounian)
 * [talkahe](https://github.com/talkahe)
 * [wli](https://github.com/wli)
