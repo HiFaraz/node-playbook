@@ -206,8 +206,7 @@ Choose a technology stack (e.g. server framework, database, front-end framework,
   * Object-relational mapping: [Sequelize](https://www.npmjs.com/package/sequelize)
 * Front-end
   * Domain: [Namecheap](https://www.namecheap.com/domains/registration.aspx)
-  * Hosting: [Namecheap](https://www.namecheap.com/hosting/shared.aspx)
-    * DNS/CDN: [CloudFlare](https://www.cloudflare.com)
+  * Hosting: [CloudFlare](https://www.cloudflare.com)
   * JavaScript: [React](https://facebook.github.io/react)
     * Use [react-slingshot](https://github.com/coryhouse/react-slingshot) as a template. It sets up a project structure, an example app, and [Redux](https://github.com/reactjs/redux) as a state management system
   * Styling: [Bootstrap](http://getbootstrap.com/)
@@ -327,6 +326,7 @@ Thanks to the following for helping with ideas and edits
 * [krokofant](https://github.com/krokofant)
 * [mateoKaradza](https://github.com/mateoKaradza)
 * [Morrisai](https://github.com/Morrisai)
+* [necenzurat](https://github.com/necenzurat)
 * [NicoPennec](https://github.com/NicoPennec)
 * [partounian](https://github.com/partounian)
 * [talkahe](https://github.com/talkahe)
