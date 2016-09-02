@@ -60,6 +60,7 @@ Each solution was chosen after balancing:
   1. [Multi-OS framework](#multi-os-framework)
 1. [Packages](#packages)
   1. [Version numbering](#version-numbering)
+  1. [Publish to NPM](#publish-to-npm)
 1. [Upcoming sections](#upcoming-sections)
 1. [Contributing](#contributing)
   1. [Acknowledgements](#heart-acknowledgements)
@@ -237,6 +238,19 @@ Use [Electron](http://electron.atom.io/). It is now considered stable as version
 
 # Packages
 This section covers problems commonly encountered with developing and publishing reusable packages.
+
+## Publish to NPM
+### Goal
+shows how to publish your own module to npm and then install anywhere
+### Solution
+
+- Module uniqueness, visit [npmjs](https://www.npmjs.com/) to insure your named module is the unique
+- Sign up Account, by now, if no npmjs account, just sign up one which would be used to publish your module
+- First publish, enter your module dir, just type `$ npm publish`
+- Check publish, now, you have published your module, change to any other place, type `$ npm install [your module name]` to check whether could be installed successful!
+- Publish again, it's necessary to up module version by [Version numbering](#version-numbering) when you update module and wish to publish again
+
+[(back to top)](#contents)
 
 ## Version numbering
 ### Goal
