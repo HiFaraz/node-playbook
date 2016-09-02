@@ -245,7 +245,7 @@ Shows how to publish your own module to npm and then install anywhere
 ### Solution
 
 - Module uniqueness, visit [npmjs](https://www.npmjs.com/) to insure your named module is the unique
-- Sign up Account, by now, if no npmjs account, just sign up one which would be used to publish your module
+- Sign up account, by now, if no npmjs account, just sign up one which would be used to publish your module
 - First publish, enter your module dir, just type `npm publish`
 - Check publish, now, you have published your module, change to any other place, type `npm install <your module name>` to check whether could be installed successful!
 - Publish again, it's necessary to up module version by [Version numbering](#version-numbering) when you update the module and wish to publish again
