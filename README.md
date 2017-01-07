@@ -15,7 +15,7 @@ The playbook helps you in two ways:
 ### Who this is for
 
 * **Beginners** who just want to get a project started without too much hassle
-* **Experience programmers** who want a "get started" guide to unfamiliar parts of the Node.js ecosystem
+* **Experienced programmers** who want a "get started" guide to unfamiliar parts of the Node.js ecosystem
 
 ### How to use this playbook
 
@@ -93,7 +93,9 @@ Install Node.js.
 
 This sounds simple enough, but unfortunately the Node.js website makes you choose a version of Node.js to download.
 ### Solution
-Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It will enter long term support (LTS) on October 1, 2016, after which it will stay in LTS for 18 months. This gives you peace of mind against major new features popping up in Node.js while you build your app. This advice expires on April 1, 2019.
+Choose [Node.js v6](https://nodejs.org/dist/latest-v6.x/). It is in long term support (LTS), which means that further updates are mostly [limited to bug fixes and security updates](https://github.com/nodejs/lts#lts-plan). This gives you peace of mind against major new features popping up in Node.js while you build your app.
+
+Version 6 will stay in LTS for 18 months, and will switch to maintenance mode in April, 2018.
 
 [(back to top)](#contents)
 
