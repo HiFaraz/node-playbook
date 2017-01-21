@@ -143,6 +143,7 @@ Set up a brand new project.
 1. Open a terminal window in your repo folder (or use the Terminal button when you open the repo in SourceTree)
 1. Run `npm init` in your terminal to create a `package.json` file
   * Set your initial version to `0.1.0` (see also [version numbering](#version-numbering))
+  * Set the entry point to `src` (see also [file and folder structure](#file-and-folder-structure))
   * For open source projects choose an MIT license by typing `MIT` when prompted for a license name
 1. Run `atom .` in your terminal to launch Atom in your project folder
 
@@ -152,9 +153,8 @@ Set up a brand new project.
 ### Goal
 Set up a file and folder structure that lets you add more complexity later, such as build and test systems.
 ### Solution
-1. Create two subfolders:
+1. Create one subfolder:
   1. `src`: place all your source code here
-  1. `test`: place all testing code here
 1. Create a file in the `src` sub-folder called `index.js`
 
 [(back to top)](#contents)
