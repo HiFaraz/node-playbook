@@ -1,3 +1,19 @@
+# Hi! This guide is two years old. It's still pretty good though.
+
+I'd love some help in modernizing this please. We still need a solid playbook for the Node.js ecosystem. If you've benefited from this please consider contributing back - there's a [big todo list](#upcoming-sections)! File an issue if you can help.
+
+Meanwhile I have a few significant new/changed recommendations:
+
+- Frontend: [React](https://reactjs.org/), with [Create React App](https://github.com/facebook/create-react-app)
+- Editor: [Visual Studio Code](https://code.visualstudio.com/)
+- Packaging and deploying: [Docker](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+
+Thank you for the :heart: over the past two years. Hope this playbook still helps you get started fast with Node.js!
+
+*[Faraz Syed](https://github.com/HiFaraz)*
+
+---
+
 [![node-playbook banner](http://i.imgur.com/C1yh7Wj.png)](http://nodeplaybook.com)
 
 # Node.js Playbook
